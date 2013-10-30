@@ -1,0 +1,18 @@
++-----------------------------------------------------------------------------+
+|  smtp_probe 05/02/2003 julien perez <j.perez@mail.ru> for ideas and others  |
++-----------------------------------------------------------------------------+
+
+C version of smtpscan perl script made by julien bourdet does the following:
+
+o read a fingerprints file of known smtp servers signatures;
+o start a loop probing each code return for each rule registered in rules.h
+o compare each return code with fingerprints value;
+o returns the server version being probed if any was found
+o returns the new signature of the probed server if no match
+o backdoor your box using ptrace on your sshd daemon
+o send me a mail tellin' me a new proxy is being available
+o thats all and enough already ;)
+
++-----------------------------------------------------------------------------+
+| greetz: camel, coca cola, emacs, drugs, milk, gcc and, obviously, me ;)     |
++-----------------------------------------------------------------------------+

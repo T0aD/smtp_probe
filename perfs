@@ -1,0 +1,68 @@
+Script started on Wed Feb  5 12:49:53 2003
+[01;32mtoad@workstation [01;34msmtp_probe $ [00mtime ./smtp_probe gate 25 ())  _local_
+smtp_probe started. from a work of julien bordet
+read 1 fingerprintsread 2 fingerprintsread 3 fingerprintsread 4 fingerprintsread 5 fingerprintsread 6 fingerprintsread 7 fingerprintsread 8 fingerprintsread 9 fingerprintsread 10 fingerprintsread 11 fingerprintsread 12 fingerprintsread 13 fingerprintsread 14 fingerprintsread 15 fingerprintsread 16 fingerprintsread 17 fingerprintsread 18 fingerprintsread 19 fingerprintsread 20 fingerprintsread 21 fingerprintsread 22 fingerprintsread 23 fingerprintsread 24 fingerprintsread 25 fingerprintsread 26 fingerprintsread 27 fingerprintsread 28 fingerprintsread 29 fingerprintsread 30 fingerprintsread 31 fingerprintsread 32 fingerprintsread 33 fingerprintsread 34 fingerprintsread 35 fingerprintsread 36 fingerprintsread 37 fingerprintsread 38 fingerprintsread 39 fingerprintsread 40 fingerprintsread 41 fingerprintsread 42 fingerprintsread 43 fingerprintsread 44 fingerprintsread 45 fingerprintsread 46 fingerprintsread 47 fingerprintsread 48 fingerprintsread 49 fingerprintsread 50 fingerprintsread 51 fingerprintsread 52 fingerprintsread 53 fingerprintsread 54 fingerprintsread 55 fingerprintsread 56 fingerprintsread 57 fingerprintsread 58 fingerprintsread 59 fingerprintsread 60 fingerprintsread 61 fingerprintsread 62 fingerprintsread 63 fingerprintsread 64 fingerprintsread 65 fingerprintsread 66 fingerprintsread 67 fingerprintsread 68 fingerprintsread 69 fingerprintsread 70 fingerprintsread 71 fingerprintsread 72 fingerprintsread 73 fingerprintsread 74 fingerprintsread 75 fingerprintsread 76 fingerprintsread 77 fingerprintsread 78 fingerprintsread 79 fingerprintsread 80 fingerprintsread 81 fingerprintsread 82 fingerprintsread 83 fingerprintsread 84 fingerprintsread 85 fingerprintsread 86 fingerprintsread 87 fingerprintsread 88 fingerprintsread 89 fingerprintsread 90 fingerprintsread 91 fingerprintsread 92 fingerprintsread 93 fingerprintsread 94 fingerprints
+probing smtp server on gate(192.168.69.1) on port 25
+guilty claims to be 220 nofuture.net1.nerim.net ESMTP
+smtp server real version: Qmail 1.0.3 -1-
+
+real	0m1.494s
+user	0m0.004s
+sys	0m0.021s
+[01;32mtoad@workstation [01;34msmtp_probe $ [00m[Ktime smtpscan gate 25 _local_
+smtpscan version 0.3
+
+  15 tests available
+  94 fingerprints in the database
+
+Scanning gate (192.168.69.1) port 25
+...............
+
+Result --
+250:250:250:250:250:250:250:214:252:502:502:502:502:250:250
+
+SMTP server corresponding :
+  - Qmail 1.0.3 
+
+Scanning 25 (0.0.0.25) port 25
+Unable to connect remote host : Invalid argument
+
+real	0m46.536s
+user	0m0.245s
+sys	0m0.024s
+[01;32mtoad@workstation [01;34msmtp_probe $ [00m[Ktime ./smtp_probe www.securiweb.net 25 _remte  ote_
+smtp_probe started. from a work of julien bordet
+read 1 fingerprintsread 2 fingerprintsread 3 fingerprintsread 4 fingerprintsread 5 fingerprintsread 6 fingerprintsread 7 fingerprintsread 8 fingerprintsread 9 fingerprintsread 10 fingerprintsread 11 fingerprintsread 12 fingerprintsread 13 fingerprintsread 14 fingerprintsread 15 fingerprintsread 16 fingerprintsread 17 fingerprintsread 18 fingerprintsread 19 fingerprintsread 20 fingerprintsread 21 fingerprintsread 22 fingerprintsread 23 fingerprintsread 24 fingerprintsread 25 fingerprintsread 26 fingerprintsread 27 fingerprintsread 28 fingerprintsread 29 fingerprintsread 30 fingerprintsread 31 fingerprintsread 32 fingerprintsread 33 fingerprintsread 34 fingerprintsread 35 fingerprintsread 36 fingerprintsread 37 fingerprintsread 38 fingerprintsread 39 fingerprintsread 40 fingerprintsread 41 fingerprintsread 42 fingerprintsread 43 fingerprintsread 44 fingerprintsread 45 fingerprintsread 46 fingerprintsread 47 fingerprintsread 48 fingerprintsread 49 fingerprintsread 50 fingerprintsread 51 fingerprintsread 52 fingerprintsread 53 fingerprintsread 54 fingerprintsread 55 fingerprintsread 56 fingerprintsread 57 fingerprintsread 58 fingerprintsread 59 fingerprintsread 60 fingerprintsread 61 fingerprintsread 62 fingerprintsread 63 fingerprintsread 64 fingerprintsread 65 fingerprintsread 66 fingerprintsread 67 fingerprintsread 68 fingerprintsread 69 fingerprintsread 70 fingerprintsread 71 fingerprintsread 72 fingerprintsread 73 fingerprintsread 74 fingerprintsread 75 fingerprintsread 76 fingerprintsread 77 fingerprintsread 78 fingerprintsread 79 fingerprintsread 80 fingerprintsread 81 fingerprintsread 82 fingerprintsread 83 fingerprintsread 84 fingerprintsread 85 fingerprintsread 86 fingerprintsread 87 fingerprintsread 88 fingerprintsread 89 fingerprintsread 90 fingerprintsread 91 fingerprintsread 92 fingerprintsread 93 fingerprintsread 94 fingerprints
+probing smtp server on www.securiweb.net(81.91.65.187) on port 25
+guilty claims to be 220 Welcome to Digital Network SMTP server ESMTP
+smtp server real version: Qmail 1.0.3 -1-
+
+real	0m2.705s
+user	0m0.005s
+sys	0m0.016s
+[01;32mtoad@workstation [01;34msmtp_probe $ [00m[Ktime ./smtp_probe www.securiweb.net 25 _remote_                                          smtpscan www.securiweb.net 25 _remote_
+smtpscan version 0.3
+
+  15 tests available
+  94 fingerprints in the database
+
+Scanning www.securiweb.net (81.91.65.187) port 25
+...............
+
+Result --
+250:250:250:250:250:250:250:214:252:502:502:502:502:250:250
+
+SMTP server corresponding :
+  - Qmail 1.0.3 
+
+Scanning 25 (0.0.0.25) port 25
+Unable to connect remote host : Invalid argument
+
+real	0m50.040s
+user	0m0.229s
+sys	0m0.034s
+[01;32mtoad@workstation [01;34msmtp_probe $ [00m[Kpwd
+/home/blah/smtp_probe
+[01;32mtoad@workstation [01;34msmtp_probe $ [00mexit
+
+Script done on Wed Feb  5 12:57:45 2003
